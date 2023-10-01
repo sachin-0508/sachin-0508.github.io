@@ -287,6 +287,47 @@
 
 
 
+      <tr onmouseout="urban_stop()" onmouseover="urban_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='urban_image'>
+              <img src='images/urban_after.png' height="160" width="160"></div>
+            <img src='images/urban_before.png' height="160" width="160">
+          </div>
+          <script type="text/javascript">
+            function urban_start() {
+              document.getElementById('urban_image').style.opacity = "1";
+            }
+
+            function urban_stop() {
+              document.getElementById('urban_image').style.opacity = "0";
+            }
+            urban_stop()
+          </script>
+        </td>
+
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a>
+            <span class="papertitle">Urban crime trends analysis and occurrence possibility prediction based on Light Gradient Boosting Machine</span>
+          </a>
+          <br>
+          <strong>Xiangzhi Tong</strong>,
+          <a href="https://profiles.ucl.ac.uk/85897">Pin Ni</a>,
+          <a href="https://www.beds.ac.uk/howtoapply/departments/computing/staff/gangmin-li/">Gangmin Li</a>
+
+          <br>
+          <a href="https://ieeexplore.ieee.org/xpl/conhome/1826624/all-proceedings">BDAI</a>, 2023
+          <br>
+          <a href="https://ieeexplore.ieee.org/abstract/document/9515252">paper</a>
+          <p></p>
+          <p>
+            Accounting for misalignment due to scene motion or calibration errors improves NeRF reconstruction quality.
+          </p>
+        </td>
+
+      </tr>
+
+
 
 
 
