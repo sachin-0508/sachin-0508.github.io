@@ -115,6 +115,10 @@ h2 {
   position: relative;
 }
 
+.researchtitle{
+
+}
+
 .two {
   width: 160px;
   height: 160px;
@@ -123,13 +127,31 @@ h2 {
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
 }
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fills the circle */
+}
 
 .fade {
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
 }
-
 span.highlight {
   background-color: #ffffd0;
+}
+
+.icon:hover .icon-text {
+  transform: scale(1.2); /* Make text 20% bigger on hover */
+}
+body{
+  background-image:url("images/bg3.jpg");
+
+}
+.projtitle {
+  font-family: 'Arial', sans-serif; /* Choose a font family */
+  font-size: 18px; /* Set the font size */
+  font-weight: bold; /* Make the text bold */
 }
